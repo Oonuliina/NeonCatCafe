@@ -1,1 +1,41 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-top: medium double #333;
+}
+
+.rounded-circle{
+    border:1px;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    }
+
+.bi {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#ruokalista {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#viivat1{
+        border-left: 1px solid grey;
+        margin-left: .7vw;
+        padding-left: .7vw;
+    }
+
+#viivat2 {
+    border-left: 1px solid grey;
+    margin-left: .7vw;
+    padding-left: .7vw;
+}     
 
