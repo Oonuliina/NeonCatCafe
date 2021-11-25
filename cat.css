@@ -3,13 +3,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    color: #ffacfc;
     font-family: 'IBM Plex Mono', monospace;
 }
 
 
 hr {
-    border-top: medium double #ffacfc;
+    border-top: medium double #7122FA;;
 }
 
 .rounded-circle{
@@ -17,38 +16,39 @@ hr {
     border-radius:50%;
     width: 150px;
     height: 150px;
-    }
+    }   
 
 .bi {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
+    color: #F148FB;
 }
 
-#ruokalista {
+ruokalista {
     padding-left: 20%;
     padding-right: 20%;
 }
 
 #viivat1{
-        border-left: 1px solid #ffacfc;
+        border-left: 1px solid #7122FA;;
         margin-left: .7vw;
         padding-left: .7vw;
     }
 
 #viivat2 {
-    border-left: 1px solid #ffacfc;
+    border-left: 1px solid #7122FA;
     margin-left: .7vw;
     padding-left: .7vw;
 }
 
 a:link {
-    color: #ffacfc;
+    color: #F148FB;
     }
 
 a:visited {
-    color: #ffacfc;
+    color: #F148FB;;
 }
 
 a:hover {
@@ -62,3 +62,27 @@ a:active {
 .nav-link {
     color: #ffacfc;
 }
+
+h1, h3 {
+    color: #7122FA;
+}
+
+section {
+    color: #d36dcf;
+}
+
+footer {
+    color: #7122FA;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+menu {
+    margin: 20px;    
+}
+
+
