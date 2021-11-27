@@ -29,7 +29,7 @@ hr {
 
 
 #viivat1{
-        border-left: 1px solid #7122FA;;
+        border-left: 1px solid #7122FA;
         margin-left: .7vw;
         padding-left: .7vw;
     }
@@ -129,6 +129,15 @@ input[type=text] {
       width: fit-content;
       background-color: #101B37;
       color:#ffacfc;
+      margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 576px) {
+    [class*="col-"], input[type=text] {
+        width: 100%;
+      }
+}
+
+
 
 
