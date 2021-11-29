@@ -151,14 +151,6 @@ input[type=text] {
   }
 
 
-  .navbar .icon {
-      display: none;
-  }
-
-  .mobile-container {
-      display: none;
-  }
-
   @media screen and (max-width: 576px) {
     [class*="col-"], input[type=text] {
         width: 100%;
@@ -166,22 +158,15 @@ input[type=text] {
 }
 
 @media screen and (max-width: 576px) {
-    i.icon {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 576px) {
     #otsikko {
         font-size: 20px;
+        padding: 0 !important;
     }
     svg {
         width: 20px;
     }
-    #otsikko {
-        padding: 0 !important;
-    }
-}
+}  
+    
 
 
 
