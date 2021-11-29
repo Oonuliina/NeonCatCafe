@@ -150,6 +150,7 @@ input[type=text] {
       padding-bottom: 40px;
   }
 
+
   .navbar .icon {
       display: none;
   }
@@ -173,7 +174,14 @@ input[type=text] {
     svg {
         width: 25px;
     }
-}    
+    #otsikko {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+
+
 
 
 
