@@ -166,6 +166,15 @@ input[type=text] {
     }
 }
 
+@media screen and (max-width: 576px) {
+    #otsikko {
+        font-size: 25px;
+    }
+    svg {
+        width: 25px;
+    }
+}
+
 
 
 
