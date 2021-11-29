@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="fi">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="cat.css">
 
     <title>Tehtävä 12</title>
@@ -30,14 +29,13 @@
         </div>
         </div>
     </header>
-    <hr>
-    <nav class="navbar navbar-expand">
+    <nav class="navbar sticky-top navbar-expand">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mx-auto mb-2">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -51,25 +49,21 @@
                 <a class="nav-link" href="kantis.html">Neon Cat Club</a>
               </li>
             </ul>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
           </div>
         </div>
       </nav>
-
-      <hr> 
     
     <section class="container">
         <div class="col-4  text-center mx-auto">
-        <p>Neon Cat Café on vuonna 2021 perustettu retro-tyylinen pelikahvila.
+        <p>Neon Cat Café on vuonna 2021 perustettu retrotyylinen pelikahvila.
             Kahvilastamme löydät laajan valikoiman erilaisia pelejä eri aikakausilta, esimerkiksi useita eri flippereitä 1980-1990 luvuilta, 
-            monen eri sukupolven pelikonsoleita, tietokoneita, sekä muutamia Arcade videokolikkopelejä. Pelit ovat ilmaisia, mutta kahvilaan on
-            15 euron sisäänpääsymaksu. 
+            monen eri sukupolven pelikonsoleita, tietokoneita, sekä Arcade kolikkopelejä. Pelipassin saat tuntihintaan 5€ tai 
+            päivähinnalla 25€.
         </p>
             <p>Pelaamisen lomassa pääsee myös nauttimaan virkistävistä erikoiskahveista, huolella valitusta teevalikoimasta
-            ja herkullisista paikan päällä valmistetuista konditoriatuotteista. Huhujen mukaan tarkkasilmäisin saattaa myös nähdä vilauksen 
-            kahvilan kissa-asukkaasta, joka halutessaan viihdyttää pelaajiamme läsnäolollaan. 
+            ja herkullisista konditoriatuotteista. Pelipassin osto ei ole pakollista, eli meille voi myös poiketa vierailemaan vain kahvilan puolella! 
+            Huhujen mukaan tarkkasilmäisin saattaa myös nähdä vilauksen kahvilan kissa-asukkaasta, joka halutessaan viihdyttää pelaajiamme 
+            läsnäolollaan. 
           </p>
         <p>
             Järjestämme myös yksityistilaisuuksia iltaisin. Mikäli olet kiinnostunut tiloistamme, tiedustele lisää sähköpostitse!
@@ -77,16 +71,14 @@
         </div>    
       </section>
 
-    <div class="container text-center">
+    <div class="container text-center" id="indexkuva">
       <div class="row">
           <div class="col-sm-6 mx-auto">
               <img src="gaming.jpg" class="img-fluid rounded-circle" alt="Responsive image">
           </div>
       </div>        
     </div>
-    
-    <hr>
-  <div class="container text-center">
+  <div class="container text-center" id="logot">
     <div class="row">
       <div class="col-sm-4 mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -106,7 +98,7 @@
 
     <footer class="container text-center">
         <h6>Yhteystiedot</h6>
-        <p>Kissakuja 12, 00800 Helsinki<br>
+        <p>Kissankellontie 12, 00930 Helsinki<br>
         Avoinna: ma-la 12.00-20.30<br>
         +358 401 234 567<br>
         neoncat@cafe.com</p>

@@ -6,11 +6,6 @@ body {
     font-family: 'IBM Plex Mono', monospace;
 }
 
-
-hr {
-    border-top: medium double #7122FA;
-}
-
 .rounded-circle{
     border:1px;
     border-radius:50%;
@@ -132,11 +127,45 @@ input[type=text] {
       margin-bottom: 20px;
   }
 
+  .navbar {
+      background-color: #101B37;
+      border-style: double;
+      border-left: none;
+      border-right: none;
+      border-color: #7122FA;
+      padding: 15px;
+      margin-bottom: 40px;
+  }
+
+  #logot {
+    border-style: double;
+    border-color: #7122FA;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 20px; 
+  }
+
+  #indexkuva {
+      padding-bottom: 40px;
+  }
+
+  .navbar .icon {
+      display: none;
+  }
+
   @media screen and (max-width: 576px) {
     [class*="col-"], input[type=text] {
         width: 100%;
-      }
+    }
 }
+
+@media screen and (max-width: 576px) {
+    i.icon {
+        display: block;
+    }
+}
+
 
 
 
