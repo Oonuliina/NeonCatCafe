@@ -21,8 +21,6 @@ body {
     color: #F148FB;
 }
 
-
-
 #viivat1{
         border-left: 1px solid #7122FA;
         margin-left: .7vw;
@@ -71,6 +69,10 @@ section {
 
 footer {
     color: #7122FA;
+}
+
+#kahvi {
+    float: end;
 }
 
 ul {
