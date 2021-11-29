@@ -155,6 +155,10 @@ input[type=text] {
       display: none;
   }
 
+  .mobile-container {
+      display: none;
+  }
+
   @media screen and (max-width: 576px) {
     [class*="col-"], input[type=text] {
         width: 100%;
@@ -175,8 +179,7 @@ input[type=text] {
         width: 20px;
     }
     #otsikko {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
+        padding: 0 !important;
     }
 }
 
